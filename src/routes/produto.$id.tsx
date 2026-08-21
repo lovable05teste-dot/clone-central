@@ -936,18 +936,16 @@ function ProductView({ p }: { p: Product }) {
             />
           ))}
 
-          {true && (
+          {p.commentsOnly && (
             <div className="space-y-4 mt-4">
               {EXTRA_COMMENTS.map((c, i) => (
-                <div key={i} className="border-t border-gray-100 pt-4">
-                  <div className="flex items-center gap-1 text-[#3483fa] mb-1">
-                    {[0, 1, 2, 3, 4].map((s) => (
-                      <Star key={s} size={12} />
-                    ))}
-                  </div>
-                  <p className="text-sm text-gray-800">{c.text}</p>
-                  <p className="text-xs text-gray-500 mt-1">{c.author}</p>
-                </div>
+                <ReviewBlock
+                  key={`extra-${i}`}
+                  n={p.reviews.length + i + 1}
+                  images={[]}
+                  texts={[{ author: c.author, text: c.text, likes: 10 + (i * 3) }]}
+                  commentsOnly={true}
+                />
               ))}
             </div>
           )}
