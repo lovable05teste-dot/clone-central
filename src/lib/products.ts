@@ -21,6 +21,7 @@ export type Product = {
   reviews: string[][];
   commentsOnly?: boolean;
   hideReviews?: boolean;
+  reviewImagesOnly?: boolean;
   category: string;
   features?: string[];
   specGroups?: { title: string; rows: [string, string][] }[];

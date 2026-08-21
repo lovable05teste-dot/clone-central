@@ -1981,5 +1981,394 @@
         ]
       }
     ]
+  },
+  {
+    "id": "1078300024",
+    "title": "Forno Elétrico Philco 65L Dupla Resistência PFE65",
+    "oldPrice": "226,92",
+    "newPrice": "107,83",
+    "colors": null,
+    "voltage": {
+      "options": [
+        "127V",
+        "220V"
+      ],
+      "active": "127V"
+    },
+    "carousel": [
+      "https://i.imgur.com/MBNnNmH.jpg",
+      "https://i.imgur.com/RQRtzsp.jpg",
+      "https://i.imgur.com/PzG83fr.jpg",
+      "https://i.imgur.com/BdgKQjE.jpg",
+      "https://i.imgur.com/Xc4wQPZ.jpg",
+      "https://i.imgur.com/VuvGnLB.jpg",
+      "https://i.imgur.com/OKMGLne.jpg",
+      "https://i.imgur.com/VNRC1nP.jpg"
+    ],
+    "photos": [
+      "https://i.imgur.com/MBNnNmH.jpg",
+      "https://i.imgur.com/RQRtzsp.jpg",
+      "https://i.imgur.com/PzG83fr.jpg",
+      "https://i.imgur.com/BdgKQjE.jpg",
+      "https://i.imgur.com/Xc4wQPZ.jpg",
+      "https://i.imgur.com/VuvGnLB.jpg",
+      "https://i.imgur.com/OKMGLne.jpg",
+      "https://i.imgur.com/VNRC1nP.jpg"
+    ],
+    "reviews": [
+      [
+        "https://i.imgur.com/RKj37E9.jpg",
+        "https://i.imgur.com/QIH1ODw.jpg",
+        "https://i.imgur.com/5zro4Dd.jpg",
+        "https://i.imgur.com/SumKuCg.jpg",
+        "https://i.imgur.com/ynnRxCJ.jpg",
+        "https://i.imgur.com/bLV8qSw.jpg",
+        "https://i.imgur.com/suYZ5Ip.jpg"
+      ],
+      [
+        "https://i.imgur.com/ndiWaMl.jpg",
+        "https://i.imgur.com/JbEsYtp.jpg",
+        "https://i.imgur.com/K2nxeB6.jpg",
+        "https://i.imgur.com/Lfwl9i7.jpg",
+        "https://i.imgur.com/B6lTwNF.jpg"
+      ],
+      [
+        "https://i.imgur.com/nLG0eDO.jpg",
+        "https://i.imgur.com/bMeVWsT.jpg"
+      ]
+    ],
+    "reviewImagesOnly": true,
+    "category": "Eletrodomésticos",
+    "features": [
+      "Marca: Philco.",
+      "Modelo: PFE65.",
+      "Capacidade interna de 65 litros.",
+      "Dupla resistência para distribuir melhor o calor.",
+      "Opções de voltagem: 127V e 220V.",
+      "Controle de temperatura e funções no painel frontal.",
+      "Porta com vidro para acompanhar o preparo.",
+      "Grade interna removível para facilitar a limpeza."
+    ],
+    "specGroups": [
+      {
+        "title": "Características gerais",
+        "rows": [
+          [
+            "Marca",
+            "Philco"
+          ],
+          [
+            "Modelo",
+            "PFE65"
+          ],
+          [
+            "Tipo",
+            "Forno elétrico"
+          ],
+          [
+            "Capacidade",
+            "65 L"
+          ]
+        ]
+      },
+      {
+        "title": "Especificações",
+        "rows": [
+          [
+            "Resistências",
+            "Dupla"
+          ],
+          [
+            "Voltagem",
+            "127V ou 220V"
+          ],
+          [
+            "Instalação",
+            "Bancada"
+          ],
+          [
+            "Controles",
+            "Painel frontal"
+          ]
+        ]
+      }
+    ],
+    "extraSpecGroups": [
+      {
+        "title": "Recursos",
+        "rows": [
+          [
+            "Grade removível",
+            "Sim"
+          ],
+          [
+            "Porta com vidro",
+            "Sim"
+          ],
+          [
+            "Controle de temperatura",
+            "Sim"
+          ],
+          [
+            "Garantia",
+            "Conforme fabricante"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "1097400025",
+    "title": "Smartphone Xiaomi Redmi 15C 4G BR 4+4GB RAM Virtual + 256GB",
+    "oldPrice": "499,90",
+    "newPrice": "109,74",
+    "colors": [
+      "Preto"
+    ],
+    "activeColor": "Preto",
+    "voltage": null,
+    "carousel": [
+      "https://i.imgur.com/Cpm5Ugr.jpg",
+      "https://i.imgur.com/ocetyVJ.jpg",
+      "https://i.imgur.com/BVlR6a3.jpg",
+      "https://i.imgur.com/wgjYuYJ.jpg"
+    ],
+    "photos": [
+      "https://i.imgur.com/wgjYuYJ.jpg",
+      "https://i.imgur.com/VNF9fpq.jpg",
+      "https://i.imgur.com/aBOIQvO.jpg",
+      "https://i.imgur.com/mmnN2pn.jpg",
+      "https://i.imgur.com/jWPGVXX.jpg",
+      "https://i.imgur.com/WzJXhGa.jpg",
+      "https://i.imgur.com/DcK7d23.jpg",
+      "https://i.imgur.com/djQ2O4t.jpg",
+      "https://i.imgur.com/BOCEvyn.jpg",
+      "https://i.imgur.com/6lWrVk2.jpg"
+    ],
+    "reviews": [
+      [
+        "https://i.imgur.com/RyR5ld5.jpg"
+      ],
+      [
+        "https://i.imgur.com/arOnxAs.jpg",
+        "https://i.imgur.com/SYBWPCb.jpg"
+      ],
+      [
+        "https://i.imgur.com/AhAXQPC.jpg",
+        "https://i.imgur.com/1Au8xHV.jpg",
+        "https://i.imgur.com/PrYmdx3.jpg"
+      ]
+    ],
+    "reviewImagesOnly": true,
+    "category": "Celulares e Smartphones",
+    "features": [
+      "Marca: Xiaomi.",
+      "Linha: Redmi.",
+      "Modelo: Redmi 15C 4G.",
+      "Armazenamento interno: 256 GB.",
+      "Memória: 4 GB com expansão virtual de mais 4 GB.",
+      "Cor: Preto.",
+      "Conectividade móvel 4G.",
+      "Tela ampla para vídeos, redes sociais e aplicativos."
+    ],
+    "specGroups": [
+      {
+        "title": "Características gerais",
+        "rows": [
+          [
+            "Marca",
+            "Xiaomi"
+          ],
+          [
+            "Linha",
+            "Redmi"
+          ],
+          [
+            "Modelo",
+            "Redmi 15C 4G"
+          ],
+          [
+            "Cor",
+            "Preto"
+          ]
+        ]
+      },
+      {
+        "title": "Memória e conectividade",
+        "rows": [
+          [
+            "Armazenamento",
+            "256 GB"
+          ],
+          [
+            "Memória RAM",
+            "4 GB + 4 GB virtual"
+          ],
+          [
+            "Rede móvel",
+            "4G"
+          ],
+          [
+            "Tipo",
+            "Smartphone"
+          ]
+        ]
+      }
+    ],
+    "extraSpecGroups": [
+      {
+        "title": "Conteúdo e uso",
+        "rows": [
+          [
+            "Sistema",
+            "Android"
+          ],
+          [
+            "Câmeras",
+            "Frontal e traseira"
+          ],
+          [
+            "Conexão sem fio",
+            "Wi-Fi e Bluetooth"
+          ],
+          [
+            "Garantia",
+            "Conforme fabricante"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "1288200026",
+    "title": "Purificador de Água Gelada, Fria e Natural Eletrônico Compacto Electrolux",
+    "oldPrice": "524,93",
+    "newPrice": "128,82",
+    "colors": [
+      "Cinza"
+    ],
+    "activeColor": "Cinza",
+    "voltage": {
+      "options": [
+        "Bivolt"
+      ],
+      "active": "Bivolt"
+    },
+    "carousel": [
+      "https://i.imgur.com/nxsVHNI.jpg",
+      "https://i.imgur.com/sQHQyr7.jpg",
+      "https://i.imgur.com/jAn8276.jpg",
+      "https://i.imgur.com/yAMZKwf.jpg",
+      "https://i.imgur.com/RytdsZ4.jpg",
+      "https://i.imgur.com/iGea5sx.jpg",
+      "https://i.imgur.com/lF8YDRy.jpg",
+      "https://i.imgur.com/UaXHEQE.jpg",
+      "https://i.imgur.com/oVO9e3R.jpg",
+      "https://i.imgur.com/yB4ORkz.jpg"
+    ],
+    "photos": [
+      "https://i.imgur.com/nxsVHNI.jpg",
+      "https://i.imgur.com/sQHQyr7.jpg",
+      "https://i.imgur.com/jAn8276.jpg",
+      "https://i.imgur.com/yAMZKwf.jpg",
+      "https://i.imgur.com/RytdsZ4.jpg",
+      "https://i.imgur.com/iGea5sx.jpg",
+      "https://i.imgur.com/lF8YDRy.jpg",
+      "https://i.imgur.com/UaXHEQE.jpg",
+      "https://i.imgur.com/oVO9e3R.jpg",
+      "https://i.imgur.com/yB4ORkz.jpg"
+    ],
+    "reviews": [
+      [
+        "https://i.imgur.com/GDYiWpN.jpg",
+        "https://i.imgur.com/h0f5fTJ.jpg",
+        "https://i.imgur.com/JYgXbPK.jpg",
+        "https://i.imgur.com/ghkzFSx.jpg",
+        "https://i.imgur.com/lI3DugN.jpg",
+        "https://i.imgur.com/b4c3xdq.jpg"
+      ],
+      [
+        "https://i.imgur.com/usNwOBo.jpg"
+      ]
+    ],
+    "reviewImagesOnly": true,
+    "category": "Eletrodomésticos",
+    "features": [
+      "Marca: Electrolux.",
+      "Tipo: Purificador de água eletrônico compacto.",
+      "Opções de água gelada, fria e natural.",
+      "Cor: Cinza.",
+      "Voltagem: Bivolt.",
+      "Design compacto para bancada ou ambientes com pouco espaço.",
+      "Painel frontal de fácil utilização.",
+      "Sistema de filtragem para o uso diário."
+    ],
+    "specGroups": [
+      {
+        "title": "Características gerais",
+        "rows": [
+          [
+            "Marca",
+            "Electrolux"
+          ],
+          [
+            "Tipo",
+            "Purificador eletrônico"
+          ],
+          [
+            "Cor",
+            "Cinza"
+          ],
+          [
+            "Instalação",
+            "Compacta"
+          ]
+        ]
+      },
+      {
+        "title": "Especificações",
+        "rows": [
+          [
+            "Temperaturas",
+            "Gelada, fria e natural"
+          ],
+          [
+            "Voltagem",
+            "Bivolt"
+          ],
+          [
+            "Uso",
+            "Doméstico"
+          ],
+          [
+            "Acionamento",
+            "Painel frontal"
+          ]
+        ]
+      }
+    ],
+    "extraSpecGroups": [
+      {
+        "title": "Recursos",
+        "rows": [
+          [
+            "Filtragem",
+            "Sim"
+          ],
+          [
+            "Refrigeração eletrônica",
+            "Sim"
+          ],
+          [
+            "Formato compacto",
+            "Sim"
+          ],
+          [
+            "Garantia",
+            "Conforme fabricante"
+          ]
+        ]
+      }
+    ]
   }
 ]
