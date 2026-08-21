@@ -81,7 +81,6 @@ export const MAIN_PRODUCT: Product = {
 const PRODUCTS_WITHOUT_IMAGES = new Set([
   "1497000015",
   "7712000016",
-  "3345000017",
   "5521000018",
   "8834000019",
   "4407000020",
