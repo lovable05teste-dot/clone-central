@@ -970,14 +970,14 @@
   },
   {
     "id": "3345000017",
-    "title": "Cafeteira Espresso Lov Preta Automática - Três Corações",
-    "oldPrice": "247,76",
-    "newPrice": "98,62",
+    "title": "Cafeteira Três Corações Espresso LOV Automática para Cápsulas Monodose",
+    "oldPrice": "199,90",
+    "newPrice": "79,90",
     "colors": [
       "Preto",
       "Preto brilhante",
       "Vermelho",
-      "Vermelho-brilhante"
+      "Vermelho-brilho"
     ],
     "voltage": {
       "options": [
@@ -987,40 +987,31 @@
       "active": "127V"
     },
     "carousel": [
-      "/img/i1F5K7a.webp",
-      "/img/DIAj8rw.webp",
-      "/img/oye351o.webp",
-      "/img/xEyseJh.webp",
-      "/img/qoEpNKu.webp",
-      "/img/v9wYxlJ.webp"
+      "https://i.imgur.com/rUkbPDL.jpg",
+      "https://i.imgur.com/0Zb7P66.jpg",
+      "https://i.imgur.com/URH0S5w.jpg",
+      "https://i.imgur.com/3mvlvXc.jpg",
+      "https://i.imgur.com/Cwnuer5.jpg"
     ],
     "photos": [
-      "/img/i1F5K7a.webp",
-      "/img/DIAj8rw.webp",
-      "/img/oye351o.webp",
-      "/img/xEyseJh.webp",
-      "/img/qoEpNKu.webp",
-      "/img/v9wYxlJ.webp"
+      "https://i.imgur.com/rUkbPDL.jpg",
+      "https://i.imgur.com/0Zb7P66.jpg",
+      "https://i.imgur.com/URH0S5w.jpg",
+      "https://i.imgur.com/3mvlvXc.jpg",
+      "https://i.imgur.com/Cwnuer5.jpg"
     ],
     "reviews": [
       [
-        "/img/FngjUPs.webp",
-        "/img/FngjUPs.webp"
+        "https://i.imgur.com/p4ga9PE.jpg",
+        "https://i.imgur.com/SDnK48H.jpg"
       ],
       [
-        "/img/qODJbT9.webp",
-        "/img/QQvdDif.webp",
-        "/img/GZidY3A.webp"
+        "https://i.imgur.com/7ce64B2.jpg",
+        "https://i.imgur.com/5K4sNeA.jpg",
+        "https://i.imgur.com/yz30lJF.jpg"
       ],
       [
-        "/img/gpYkIx3.webp",
-        "/img/c4IfYsG.webp",
-        "/img/pht6ae6.webp"
-      ],
-      [
-        "/img/QYh5Crs.webp",
-        "/img/rXgL9z4.webp",
-        "/img/IbmCIve.webp"
+        "https://i.imgur.com/UFsM2v7.jpg"
       ]
     ],
     "category": "Eletroportáteis",
@@ -1128,31 +1119,31 @@
     "colorVariants": [
       {
         "name": "Preto",
-        "swatch": "/img/i1F5K7a.webp",
-        "image": "/img/i1F5K7a.webp",
-        "oldPrice": "247,76",
-        "newPrice": "98,62"
+        "swatch": "https://i.imgur.com/rUkbPDL.jpg",
+        "image": "https://i.imgur.com/rUkbPDL.jpg",
+        "oldPrice": "199,90",
+        "newPrice": "79,90"
       },
       {
         "name": "Preto brilhante",
-        "swatch": "/img/DIAj8rw.webp",
-        "image": "/img/DIAj8rw.webp",
-        "oldPrice": "259,90",
-        "newPrice": "104,90"
+        "swatch": "https://i.imgur.com/0Zb7P66.jpg",
+        "image": "https://i.imgur.com/0Zb7P66.jpg",
+        "oldPrice": "199,90",
+        "newPrice": "79,90"
       },
       {
         "name": "Vermelho",
-        "swatch": "/img/oye351o.webp",
-        "image": "/img/oye351o.webp",
-        "oldPrice": "269,90",
-        "newPrice": "109,90"
+        "swatch": "https://i.imgur.com/URH0S5w.jpg",
+        "image": "https://i.imgur.com/URH0S5w.jpg",
+        "oldPrice": "199,90",
+        "newPrice": "79,90"
       },
       {
-        "name": "Vermelho-brilhante",
-        "swatch": "/img/xEyseJh.webp",
-        "image": "/img/xEyseJh.webp",
-        "oldPrice": "279,90",
-        "newPrice": "114,90"
+        "name": "Vermelho-brilho",
+        "swatch": "https://i.imgur.com/3mvlvXc.jpg",
+        "image": "https://i.imgur.com/3mvlvXc.jpg",
+        "oldPrice": "199,90",
+        "newPrice": "79,90"
       }
     ]
   },
