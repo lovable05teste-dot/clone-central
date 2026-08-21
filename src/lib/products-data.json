@@ -1902,7 +1902,7 @@
       "https://i.imgur.com/gXTUXxK.jpg"
     ],
     "reviews": [],
-    "hideReviews": true,
+    "hideReviews": false,
     "category": "Eletrônicos",
     "features": [
       "Marca: JBL.",
@@ -2037,7 +2037,7 @@
         "https://i.imgur.com/bMeVWsT.jpg"
       ]
     ],
-    "reviewImagesOnly": true,
+    "reviewImagesOnly": false,
     "category": "Eletrodomésticos",
     "features": [
       "Marca: Philco.",
@@ -2159,7 +2159,7 @@
         "https://i.imgur.com/PrYmdx3.jpg"
       ]
     ],
-    "reviewImagesOnly": true,
+    "reviewImagesOnly": false,
     "category": "Celulares e Smartphones",
     "features": [
       "Marca: Xiaomi.",
@@ -2291,7 +2291,7 @@
         "https://i.imgur.com/usNwOBo.jpg"
       ]
     ],
-    "reviewImagesOnly": true,
+    "reviewImagesOnly": false,
     "category": "Eletrodomésticos",
     "features": [
       "Marca: Electrolux.",
