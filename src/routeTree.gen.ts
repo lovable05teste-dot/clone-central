@@ -9,38 +9,155 @@
 // Additionally, you should also exclude this file from your linter and/or formatter to prevent it from being checked or modified.
 
 import { Route as rootRouteImport } from './routes/__root'
+import { Route as RevisaoRouteImport } from './routes/revisao'
+import { Route as PixRouteImport } from './routes/pix'
+import { Route as PagamentoRouteImport } from './routes/pagamento'
+import { Route as EntregaRouteImport } from './routes/entrega'
+import { Route as EnderecoRouteImport } from './routes/endereco'
 import { Route as IndexRouteImport } from './routes/index'
+import { Route as ProdutoIdRouteImport } from './routes/produto.$id'
 
+const RevisaoRoute = RevisaoRouteImport.update({
+  id: '/revisao',
+  path: '/revisao',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const PixRoute = PixRouteImport.update({
+  id: '/pix',
+  path: '/pix',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const PagamentoRoute = PagamentoRouteImport.update({
+  id: '/pagamento',
+  path: '/pagamento',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const EntregaRoute = EntregaRouteImport.update({
+  id: '/entrega',
+  path: '/entrega',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const EnderecoRoute = EnderecoRouteImport.update({
+  id: '/endereco',
+  path: '/endereco',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const IndexRoute = IndexRouteImport.update({
   id: '/',
   path: '/',
   getParentRoute: () => rootRouteImport,
 } as any)
+const ProdutoIdRoute = ProdutoIdRouteImport.update({
+  id: '/produto/$id',
+  path: '/produto/$id',
+  getParentRoute: () => rootRouteImport,
+} as any)
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
+  '/endereco': typeof EnderecoRoute
+  '/entrega': typeof EntregaRoute
+  '/pagamento': typeof PagamentoRoute
+  '/pix': typeof PixRoute
+  '/revisao': typeof RevisaoRoute
+  '/produto/$id': typeof ProdutoIdRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
+  '/endereco': typeof EnderecoRoute
+  '/entrega': typeof EntregaRoute
+  '/pagamento': typeof PagamentoRoute
+  '/pix': typeof PixRoute
+  '/revisao': typeof RevisaoRoute
+  '/produto/$id': typeof ProdutoIdRoute
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/': typeof IndexRoute
+  '/endereco': typeof EnderecoRoute
+  '/entrega': typeof EntregaRoute
+  '/pagamento': typeof PagamentoRoute
+  '/pix': typeof PixRoute
+  '/revisao': typeof RevisaoRoute
+  '/produto/$id': typeof ProdutoIdRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
-  fullPaths: '/'
+  fullPaths:
+    | '/'
+    | '/endereco'
+    | '/entrega'
+    | '/pagamento'
+    | '/pix'
+    | '/revisao'
+    | '/produto/$id'
   fileRoutesByTo: FileRoutesByTo
-  to: '/'
-  id: '__root__' | '/'
+  to:
+    | '/'
+    | '/endereco'
+    | '/entrega'
+    | '/pagamento'
+    | '/pix'
+    | '/revisao'
+    | '/produto/$id'
+  id:
+    | '__root__'
+    | '/'
+    | '/endereco'
+    | '/entrega'
+    | '/pagamento'
+    | '/pix'
+    | '/revisao'
+    | '/produto/$id'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
+  EnderecoRoute: typeof EnderecoRoute
+  EntregaRoute: typeof EntregaRoute
+  PagamentoRoute: typeof PagamentoRoute
+  PixRoute: typeof PixRoute
+  RevisaoRoute: typeof RevisaoRoute
+  ProdutoIdRoute: typeof ProdutoIdRoute
 }
 
 declare module '@tanstack/react-router' {
   interface FileRoutesByPath {
+    '/revisao': {
+      id: '/revisao'
+      path: '/revisao'
+      fullPath: '/revisao'
+      preLoaderRoute: typeof RevisaoRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/pix': {
+      id: '/pix'
+      path: '/pix'
+      fullPath: '/pix'
+      preLoaderRoute: typeof PixRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/pagamento': {
+      id: '/pagamento'
+      path: '/pagamento'
+      fullPath: '/pagamento'
+      preLoaderRoute: typeof PagamentoRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/entrega': {
+      id: '/entrega'
+      path: '/entrega'
+      fullPath: '/entrega'
+      preLoaderRoute: typeof EntregaRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/endereco': {
+      id: '/endereco'
+      path: '/endereco'
+      fullPath: '/endereco'
+      preLoaderRoute: typeof EnderecoRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/': {
       id: '/'
       path: '/'
@@ -48,11 +165,24 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof IndexRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/produto/$id': {
+      id: '/produto/$id'
+      path: '/produto/$id'
+      fullPath: '/produto/$id'
+      preLoaderRoute: typeof ProdutoIdRouteImport
+      parentRoute: typeof rootRouteImport
+    }
   }
 }
 
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
+  EnderecoRoute: EnderecoRoute,
+  EntregaRoute: EntregaRoute,
+  PagamentoRoute: PagamentoRoute,
+  PixRoute: PixRoute,
+  RevisaoRoute: RevisaoRoute,
+  ProdutoIdRoute: ProdutoIdRoute,
 }
 export const routeTree = rootRouteImport
   ._addFileChildren(rootRouteChildren)
