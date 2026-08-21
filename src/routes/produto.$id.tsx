@@ -932,6 +932,7 @@ function ProductView({ p }: { p: Product }) {
               images={imgs}
               texts={REVIEWS_BY_PRODUCT[String(p.id)] ?? REVIEW_TEXTS}
               commentsOnly={false}
+              imagesOnly={p.reviewImagesOnly}
             />
           ))}
 
@@ -1044,17 +1045,39 @@ function ReviewBlock({
   images,
   texts,
   commentsOnly,
+  imagesOnly,
 }: {
   n: number;
   images: string[];
   texts?: { author: string; text: string; likes?: number }[];
   commentsOnly?: boolean;
+  imagesOnly?: boolean;
 }) {
   const list = texts && texts.length ? texts : REVIEW_TEXTS;
   const r = list[(n - 1) % list.length];
   const [liked, setLiked] = useState(false);
   const base = r.likes ?? 10 + ((n * 7) % 23);
   const color = liked ? "#3483fa" : "rgba(0, 0, 0, 0.55)";
+  if (imagesOnly) {
+    return (
+      <div className="border-t border-gray-100 py-4">
+        <div className="flex flex-wrap gap-2">
+          {images.map((src, i) => (
+            <img
+              key={i}
+              src={src}
+              alt={`Foto de avaliação ${n} — imagem ${i + 1}`}
+              width={96}
+              height={96}
+              loading="lazy"
+              decoding="async"
+              className="w-24 h-24 object-cover rounded border border-gray-100"
+            />
+          ))}
+        </div>
+      </div>
+    );
+  }
   return (
     <div className="border-t border-gray-100 pt-4 pb-4">
       <div style={{ width: "100%", display: "flex", alignItems: "center" }}>
