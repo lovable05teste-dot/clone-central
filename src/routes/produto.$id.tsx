@@ -803,7 +803,7 @@ function ProductView({ p }: { p: Product }) {
         </section>
 
         {/* Opiniões */}
-        {true && (
+        {!p.hideReviews && (
         <section className="px-4 md:px-8 py-6 border-t border-gray-200">
           <span
             style={{
