@@ -1073,19 +1073,35 @@ function ReviewBlock({
             />
           ))}
         </div>
-        <button
-          type="button"
-          onClick={() => setLiked((value) => !value)}
+        <div
+          onClick={() => setLiked((v) => !v)}
+          role="button"
           aria-pressed={liked}
-          className="mt-3 inline-flex h-8 items-center rounded-full border px-3 text-sm transition-colors"
           style={{
-            borderColor: liked ? "#3483fa" : "#d0d0d0",
-            color: liked ? "#3483fa" : "#555",
+            cursor: "pointer",
+            height: 30,
+            border: `solid 1px ${color}`,
+            display: "inline-flex",
+            alignItems: "center",
+            borderRadius: 15,
+            marginTop: 14,
+            padding: "0 10px",
             backgroundColor: "#fff",
           }}
         >
-          É útil
-        </button>
+          <span style={{ fontSize: 12, color, marginRight: 8, fontWeight: 600 }}>É útil</span>
+          <svg
+            width="14"
+            height="14"
+            viewBox="0 0 24 24"
+            fill={color}
+            aria-hidden="true"
+            style={{ marginRight: 6 }}
+          >
+            <path d="M1 21h4V9H1v12zm22-11c0-1.1-.9-2-2-2h-6.31l.95-4.57.03-.32c0-.41-.17-.79-.44-1.06L14.17 1 7.59 7.59C7.22 7.95 7 8.45 7 9v10c0 1.1.9 2 2 2h9c.83 0 1.54-.5 1.84-1.22l3.02-7.05c.09-.23.14-.47.14-.73v-2z" />
+          </svg>
+          <span style={{ fontSize: 12, color, fontWeight: 600 }}>{liked ? base + 1 : base}</span>
+        </div>
       </div>
     );
   }
