@@ -803,6 +803,7 @@ function ProductView({ p }: { p: Product }) {
         </section>
 
         {/* Opiniões */}
+        {!p.hideReviews && (
         <section className="px-4 md:px-8 py-6 border-t border-gray-200">
           <span
             style={{
@@ -951,6 +952,7 @@ function ProductView({ p }: { p: Product }) {
           )}
 
         </section>
+        )}
 
         {/* Quem viu este produto também comprou */}
         {alsoBought.length > 0 && (
