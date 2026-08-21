@@ -74,7 +74,23 @@ export const MAIN_PRODUCT: Product = {
 
 
 
-export const PRODUCTS: Product[] = data as Product[];
+// Estes itens chegaram ao repositório com todos os arquivos de imagem vazios
+// (0 bytes). Mantê-los no catálogo cria cards brancos e páginas sem fotos.
+// Os dados permanecem no JSON para poderem ser recuperados depois, mas os
+// produtos ficam fora da navegação até receberem imagens válidas.
+const PRODUCTS_WITHOUT_IMAGES = new Set([
+  "1497000015",
+  "7712000016",
+  "3345000017",
+  "5521000018",
+  "8834000019",
+  "4407000020",
+  "2278000022",
+]);
+
+export const PRODUCTS: Product[] = (data as Product[]).filter(
+  (product) => !PRODUCTS_WITHOUT_IMAGES.has(product.id),
+);
 
 function safeAssetPart(value: string, allowDots = false): string {
   const pattern = allowDots ? /[^A-Za-z0-9_.()-]+/g : /[^A-Za-z0-9_-]+/g;
