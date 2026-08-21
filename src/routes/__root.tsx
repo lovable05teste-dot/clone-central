@@ -11,6 +11,7 @@ import { useEffect, type ReactNode } from "react";
 
 import appCss from "../styles.css?url";
 import { reportLovableError } from "../lib/lovable-error-reporting";
+import { captureUtms } from "../lib/utm";
 
 function NotFoundComponent() {
   return (
@@ -77,14 +78,18 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
+      { title: "Jogo de Panelas Antiaderente 10 Peças" },
+      { name: "description", content: "Oferta de jogo de panelas antiaderente com frete grátis, avaliações e produtos relacionados." },
       { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
+      { property: "og:title", content: "Jogo de Panelas Antiaderente 10 Peças" },
+      { property: "og:description", content: "Oferta de jogo de panelas antiaderente com frete grátis, avaliações e produtos relacionados." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
       { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:title", content: "Jogo de Panelas Antiaderente 10 Peças" },
+      { name: "twitter:description", content: "Oferta de jogo de panelas antiaderente com frete grátis, avaliações e produtos relacionados." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/aa1807fb-ea33-4a60-8091-6c5467de5669/id-preview-381c2d80--0989b885-61c7-4789-94e0-5e2e83a22aff.lovable.app-1785216312300.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/aa1807fb-ea33-4a60-8091-6c5467de5669/id-preview-381c2d80--0989b885-61c7-4789-94e0-5e2e83a22aff.lovable.app-1785216312300.png" },
     ],
     links: [
       {
@@ -92,6 +97,21 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
         href: appCss,
       },
       { rel: "icon", href: "/favicon.ico", type: "image/x-icon" },
+      { rel: "preconnect", href: "https://cdn.utmify.com.br", crossOrigin: "anonymous" },
+      { rel: "preconnect", href: "https://tracking.utmify.com.br", crossOrigin: "anonymous" },
+      { rel: "preconnect", href: "https://i.postimg.cc", crossOrigin: "anonymous" },
+      { rel: "dns-prefetch", href: "https://i.imgur.com" },
+      { rel: "dns-prefetch", href: "https://i.ibb.co" },
+      { rel: "dns-prefetch", href: "https://connect.facebook.net" },
+      { rel: "dns-prefetch", href: "https://go.fortpayplataforma.com.br" },
+    ],
+    scripts: [
+      {
+        // Pixel Utmify — carregado fora do caminho crítico (idle / primeira interação),
+        // sem perder eventos: o pixelId é definido imediatamente.
+        children:
+          'window.pixelId = "6a5adf30a9b7f7643b523796";(function(){var done=false;function load(){if(done)return;done=true;["https://cdn.utmify.com.br/scripts/pixel/pixel.js","https://cdn.utmify.com.br/scripts/utms/latest.js"].forEach(function(src,i){var s=document.createElement("script");s.async=true;s.defer=true;s.src=src;if(i===1){s.setAttribute("data-utmify-prevent-xcod-sck","");s.setAttribute("data-utmify-prevent-subids","");}document.head.appendChild(s);});}["pointerdown","keydown","touchstart","scroll"].forEach(function(e){window.addEventListener(e,load,{once:true,passive:true});});function schedule(){if("requestIdleCallback"in window){requestIdleCallback(load,{timeout:2500});}else{setTimeout(load,1200);}}if(document.readyState==="complete"){schedule();}else{window.addEventListener("load",schedule,{once:true});}})();',
+      },
     ],
   }),
   shellComponent: RootShell,
@@ -116,6 +136,10 @@ function RootShell({ children }: { children: ReactNode }) {
 
 function RootComponent() {
   const { queryClient } = Route.useRouteContext();
+
+  useEffect(() => {
+    captureUtms();
+  }, []);
 
   return (
     <QueryClientProvider client={queryClient}>
