@@ -842,28 +842,49 @@
     "title": "Geladeira Consul Frost Free 297 Litros Branca - CRB36MB",
     "oldPrice": "1.099,74",
     "newPrice": "419,52",
-    "colors": null,
-    "voltage": null,
+    "colors": [
+      "Branco"
+    ],
+    "voltage": {
+      "options": [
+        "127V",
+        "220V"
+      ],
+      "active": "127V"
+    },
     "carousel": [
-      "/img/XtNfojY.webp",
-      "/img/8kovIrJ.webp",
-      "/img/PjluUGS.webp",
-      "/img/YUB3gF7.webp",
-      "/img/XnmmrYT.webp"
+      "https://i.imgur.com/sFUMfze.jpg",
+      "https://i.imgur.com/WsC1Rom.jpg",
+      "https://i.imgur.com/deDVlAx.jpg",
+      "https://i.imgur.com/c373EIE.jpg",
+      "https://i.imgur.com/FWy0067.jpg",
+      "https://i.imgur.com/SxSbvjM.jpg"
     ],
     "photos": [
-      "/img/XtNfojY.webp",
-      "/img/8kovIrJ.webp",
-      "/img/PjluUGS.webp",
-      "/img/YUB3gF7.webp",
-      "/img/XnmmrYT.webp"
+      "https://i.imgur.com/sFUMfze.jpg",
+      "https://i.imgur.com/WsC1Rom.jpg",
+      "https://i.imgur.com/deDVlAx.jpg",
+      "https://i.imgur.com/c373EIE.jpg",
+      "https://i.imgur.com/FWy0067.jpg",
+      "https://i.imgur.com/SxSbvjM.jpg"
     ],
     "reviews": [
       [
-        "/img/PCIOcu1.webp",
-        "/img/4OimtrC.webp",
-        "/img/zofQrPo.webp",
-        "/img/yS3xCMZ.webp"
+        "https://i.imgur.com/yQaxvLG.jpg",
+        "https://i.imgur.com/PpZi2XC.jpg",
+        "https://i.imgur.com/W5vb5Qu.jpg",
+        "https://i.imgur.com/FbRCXT7.jpg"
+      ],
+      [
+        "https://i.imgur.com/CjY7qS5.jpg",
+        "https://i.imgur.com/nIOX4nt.jpg",
+        "https://i.imgur.com/ePICb60.jpg",
+        "https://i.imgur.com/IFZpA4n.jpg"
+      ],
+      [
+        "https://i.imgur.com/b21Ygji.jpg",
+        "https://i.imgur.com/LJxMZr7.jpg",
+        "https://i.imgur.com/jL8XGro.jpg"
       ]
     ],
     "category": "Eletrodomésticos",
@@ -966,7 +987,8 @@
           ]
         ]
       }
-    ]
+    ],
+    "activeColor": "Branco"
   },
   {
     "id": "3345000017",
@@ -1451,40 +1473,42 @@
     "title": "Fogão Brastemp 4 Bocas Inox BFO4NBR - Bivolt",
     "oldPrice": "1.299,00",
     "newPrice": "289,90",
-    "colors": null,
-    "voltage": null,
+    "colors": [
+      "Cinza/Preto"
+    ],
+    "voltage": {
+      "options": [
+        "127V",
+        "220V"
+      ],
+      "active": "127V"
+    },
     "carousel": [
-      "/img/qYQbN2s.webp",
-      "/img/6QkBK1I.webp",
-      "/img/McXDlBI.webp",
-      "/img/ck0PzOv.webp"
+      "https://i.imgur.com/UdBYxtT.jpg",
+      "https://i.imgur.com/G1hsZWH.jpg",
+      "https://i.imgur.com/rV3WsYp.jpg",
+      "https://i.imgur.com/u3LAbGR.jpg"
     ],
     "photos": [
-      "/img/qYQbN2s.webp",
-      "/img/6QkBK1I.webp",
-      "/img/McXDlBI.webp",
-      "/img/ck0PzOv.webp"
+      "https://i.imgur.com/UdBYxtT.jpg",
+      "https://i.imgur.com/G1hsZWH.jpg",
+      "https://i.imgur.com/rV3WsYp.jpg",
+      "https://i.imgur.com/u3LAbGR.jpg"
     ],
     "reviews": [
       [
-        "/img/tWS4xJ3.webp",
-        "/img/aF8njIk.webp",
-        "/img/tKQhSQl.webp",
-        "/img/9AnsD7R.webp",
-        "/img/9x71Scz.webp",
-        "/img/xt6yKsV.webp",
-        "/img/ay0Sw2U.webp"
+        "https://i.imgur.com/XJThxcK.jpg",
+        "https://i.imgur.com/xysu0fw.jpg",
+        "https://i.imgur.com/vQZNshP.jpg",
+        "https://i.imgur.com/85f45QM.jpg",
+        "https://i.imgur.com/B35CLQR.jpg",
+        "https://i.imgur.com/RCxzvzI.jpg",
+        "https://i.imgur.com/KnjnWlT.jpg"
       ],
       [
-        "/img/lnbBWrn.webp"
-      ],
-      [
-        "/img/yPB9QoI.webp",
-        "/img/SGDzD2W.webp",
-        "/img/LgZ1BBY.webp",
-        "/img/vr8bp7b.webp",
-        "/img/O5Q4w83.webp",
-        "/img/2mWzhwV.webp"
+        "https://i.imgur.com/2EOG8W9.jpg",
+        "https://i.imgur.com/UmvQjTT.jpg",
+        "https://i.imgur.com/ScAReDS.jpg"
       ]
     ],
     "category": "Eletrodomésticos",
@@ -1587,7 +1611,8 @@
           ]
         ]
       }
-    ]
+    ],
+    "activeColor": "Cinza/Preto"
   },
   {
     "id": "9163000021",
@@ -1846,6 +1871,112 @@
           [
             "Garantia",
             "3 meses"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "9909000023",
+    "title": "JBL Boombox 4 Caixa de Som Bluetooth IP68 34h Playtime",
+    "oldPrice": "899,90",
+    "newPrice": "99,90",
+    "colors": null,
+    "voltage": null,
+    "carousel": [
+      "https://i.imgur.com/XomrA9k.jpg",
+      "https://i.imgur.com/meef1R1.jpg",
+      "https://i.imgur.com/f78soxA.jpg",
+      "https://i.imgur.com/y8oDlNX.jpg",
+      "https://i.imgur.com/6D24ofo.jpg",
+      "https://i.imgur.com/i5FD92Q.jpg",
+      "https://i.imgur.com/gXTUXxK.jpg"
+    ],
+    "photos": [
+      "https://i.imgur.com/XomrA9k.jpg",
+      "https://i.imgur.com/meef1R1.jpg",
+      "https://i.imgur.com/f78soxA.jpg",
+      "https://i.imgur.com/y8oDlNX.jpg",
+      "https://i.imgur.com/6D24ofo.jpg",
+      "https://i.imgur.com/i5FD92Q.jpg",
+      "https://i.imgur.com/gXTUXxK.jpg"
+    ],
+    "reviews": [],
+    "hideReviews": true,
+    "category": "Eletrônicos",
+    "features": [
+      "Marca: JBL.",
+      "Modelo: Boombox 4.",
+      "Conexão sem fio por Bluetooth.",
+      "Proteção IP68 contra água e poeira.",
+      "Autonomia informada de até 34 horas.",
+      "Som portátil com graves potentes.",
+      "Alça integrada para facilitar o transporte.",
+      "Indicador de bateria e controles no próprio aparelho."
+    ],
+    "specGroups": [
+      {
+        "title": "Características gerais",
+        "rows": [
+          [
+            "Marca",
+            "JBL"
+          ],
+          [
+            "Modelo",
+            "Boombox 4"
+          ],
+          [
+            "Tipo",
+            "Caixa de som portátil"
+          ],
+          [
+            "Conectividade",
+            "Bluetooth"
+          ]
+        ]
+      },
+      {
+        "title": "Especificações",
+        "rows": [
+          [
+            "Proteção",
+            "IP68"
+          ],
+          [
+            "Autonomia",
+            "Até 34 horas"
+          ],
+          [
+            "Uso",
+            "Interno e externo"
+          ],
+          [
+            "Controles",
+            "Integrados"
+          ]
+        ]
+      }
+    ],
+    "extraSpecGroups": [
+      {
+        "title": "Recursos",
+        "rows": [
+          [
+            "Resistência à água",
+            "Sim"
+          ],
+          [
+            "Resistência à poeira",
+            "Sim"
+          ],
+          [
+            "Alça para transporte",
+            "Sim"
+          ],
+          [
+            "Bateria recarregável",
+            "Sim"
           ]
         ]
       }
