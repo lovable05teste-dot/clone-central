@@ -146,3 +146,80 @@
 #lovable-badge {
   display: none !important;
 }
+
+
+/* Ajustes móveis sem bloquear ou alterar a experiência desktop */
+html,
+body,
+#root {
+  width: 100%;
+  max-width: 100%;
+  min-height: 100%;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+img,
+video,
+svg {
+  max-width: 100%;
+}
+
+button,
+[role="button"] {
+  touch-action: manipulation;
+  -webkit-tap-highlight-color: transparent;
+}
+
+@media (max-width: 767px) {
+  body {
+    min-width: 320px;
+    overscroll-behavior-y: contain;
+  }
+
+  main {
+    width: 100%;
+    max-width: 100%;
+    padding-bottom: max(16px, env(safe-area-inset-bottom));
+  }
+
+  input,
+  select,
+  textarea {
+    max-width: 100%;
+    font-size: 16px;
+  }
+
+  button,
+  [role="button"] {
+    min-height: 44px;
+  }
+
+  [class*="overflow-x-auto"] {
+    overscroll-behavior-inline: contain;
+    scrollbar-width: thin;
+    scroll-snap-stop: always;
+  }
+
+  img {
+    height: auto;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
