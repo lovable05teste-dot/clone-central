@@ -1075,6 +1075,19 @@ function ReviewBlock({
             />
           ))}
         </div>
+        <button
+          type="button"
+          onClick={() => setLiked((value) => !value)}
+          aria-pressed={liked}
+          className="mt-3 inline-flex h-8 items-center rounded-full border px-3 text-sm transition-colors"
+          style={{
+            borderColor: liked ? "#3483fa" : "#d0d0d0",
+            color: liked ? "#3483fa" : "#555",
+            backgroundColor: "#fff",
+          }}
+        >
+          É útil
+        </button>
       </div>
     );
   }
