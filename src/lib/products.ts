@@ -20,6 +20,7 @@ export type Product = {
   photos: string[];
   reviews: string[][];
   commentsOnly?: boolean;
+  hideReviews?: boolean;
   category: string;
   features?: string[];
   specGroups?: { title: string; rows: [string, string][] }[];
@@ -80,10 +81,8 @@ export const MAIN_PRODUCT: Product = {
 // produtos ficam fora da navegação até receberem imagens válidas.
 const PRODUCTS_WITHOUT_IMAGES = new Set([
   "1497000015",
-  "7712000016",
   "5521000018",
   "8834000019",
-  "4407000020",
   "2278000022",
 ]);
 
