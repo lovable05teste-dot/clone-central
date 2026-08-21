@@ -803,7 +803,7 @@ function ProductView({ p }: { p: Product }) {
         </section>
 
         {/* Opiniões */}
-        {!p.hideReviews && (
+        {true && (
         <section className="px-4 md:px-8 py-6 border-t border-gray-200">
           <span
             style={{
@@ -936,7 +936,7 @@ function ProductView({ p }: { p: Product }) {
             />
           ))}
 
-          {p.commentsOnly && (
+          {true && (
             <div className="space-y-4 mt-4">
               {EXTRA_COMMENTS.map((c, i) => (
                 <div key={i} className="border-t border-gray-100 pt-4">
